@@ -13,3 +13,6 @@ import matplotlib.pyplot as plt
 st.sidebar.title("Barra Lateral")
 st.sidebar.header("Hola esta es una barra lateral")
 st.sidebar.image("OIP.png")
+
+if st.sidebar.button("Haz Click Aqui")
+   st.sidebar.write("Haz Hecho Click Felicidades")
