@@ -11,3 +11,4 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 st.sidebar.title("Barra Lateral")
+st.sidebar.header("Hola esta es una barra lateral")
