@@ -10,5 +10,4 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-
-st.title('Que fay malayas ')
+si.sidebar.title("Barra Lateral")
