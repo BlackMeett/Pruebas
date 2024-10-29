@@ -10,4 +10,4 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-si.sidebar.title("Barra Lateral")
+st.sidebar.title("Barra Lateral")
