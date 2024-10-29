@@ -17,4 +17,4 @@ st.sidebar.image("OIP.png")
 if st.sidebar.button("Haz Click Aqui"):
    st.sidebar.write("Haz Hecho Click Felicidades")
 user_input = st.sidebar.text_input("Escribe Cualquiera cosa")
-    st.sidebar.write("Escribiste lo siguiente:" user_input)
+st.sidebar.write("Escribiste lo siguiente:", user_input)
