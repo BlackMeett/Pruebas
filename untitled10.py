@@ -20,7 +20,7 @@ st.write("Galeria De Juegos")
 
 st.title("Forza Horizon 4")
 st.image("Horizon.jpg")
-st.write("Especificaciones"
+st.write("Especificaciones")
 st.write( "SO: Windows 10 versión 15063.0 o superior")
 st.write("Procesador: Intel i7-3820 @ 3.6Ghz")
 st.write("Memoria: 8 GB de RAM")
