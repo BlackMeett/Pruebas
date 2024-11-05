@@ -26,6 +26,7 @@ st.write("Procesador: Intel i7-3820 @ 3.6Ghz")
 st.write("Memoria: 8 GB de RAM")
 st.write("Gráficos: NVidia GTX 970 o NVidia GTX 1060 3GB o AMD R9 290x o AMD RX 470")
 st.write("Almacenamiento: 100 GB de espacio disponible")
+st.button("Descargar aqui")
 
 
 
