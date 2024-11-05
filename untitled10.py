@@ -45,8 +45,8 @@ st.write("Procesador: Intel i7-3820 @ 3.6Ghz")
 st.write("Memoria: 8 GB de RAM")
 st.write("NVIDIA GTX 660 2GB / AMD HD7870 2GB")
 st.write("72 GB available space")
-if st.button('¡Peligro! Emergencia'):
-    st.error("¡ALERTA! Esto es una emergencia peligrosa.")
+if st.button("Descarga aca!"):
+    st.error("¡ALERTA! Esto puede contener virus")
 
 
 
