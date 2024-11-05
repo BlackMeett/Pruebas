@@ -20,7 +20,12 @@ st.write("Galeria De Juegos")
 
 st.title("Forza Horizon 4")
 st.image("Horizon.jpg")
-st.write("Descripciones"\n"Peso:64GB")
+st.write("Descripciones" "SO: Windows 10 versión 15063.0 o superior
+Procesador: Intel i7-3820 @ 3.6Ghz
+Memoria: 8 GB de RAM (12 GB en2)
+Gráficos: NVidia GTX 970 o NVidia GTX 1060 3GB o AMD R9 290x o AMD RX 470
+DirectX: Versión 12
+Red: Conexión de banda ancha a Internet")
 
 
 
