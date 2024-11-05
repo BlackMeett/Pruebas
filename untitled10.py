@@ -18,6 +18,11 @@ st.title("Steam Verde")
 st.write("Galeria De Juegos")
 
 
+st.title("Forza Horizon 4")
+st.image("Horizon.jpg")
+
+
+
 
 
 
