@@ -15,6 +15,7 @@ st.sidebar.header("Bienvenido a Steam Verde ")
 st.sidebar.image("OIP.jpg")
 st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
 st.title("Steam Verde")
+st.write("Galeria De Juegos")
 
 
 
