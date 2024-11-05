@@ -10,8 +10,8 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-st.sidebar.title("Barra Lateral")
-st.sidebar.header("Hola esta es una barra lateral")
+st.sidebar.title("Steam Verde")
+st.sidebar.header("Bienvenido a Steam Verda ")
 st.sidebar.image("OIP.jpg")
 st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
 
