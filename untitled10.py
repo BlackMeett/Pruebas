@@ -11,7 +11,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 st.sidebar.title("Steam Verde")
-st.sidebar.header("Bienvenido a Steam Verda ")
+st.sidebar.header("Bienvenido a Steam Verde ")
 st.sidebar.image("OIP.jpg")
 st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
 
