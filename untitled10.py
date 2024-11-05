@@ -17,7 +17,7 @@ st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
 st.title("Steam Verde")
 st.write("Galeria De Juegos")
 
-
+#Juego_1
 st.title("Forza Horizon 4")
 st.image("Horizon.jpg")
 st.write("Especificaciones")
@@ -28,6 +28,16 @@ st.write("Gráficos: NVidia GTX 970 o NVidia GTX 1060 3GB o AMD R9 290x o AMD RX
 st.write("Almacenamiento: 100 GB de espacio disponible")
 st.button("Descargar aqui")
 
+#Juego_2
+st.title("GTA V")
+st.image("Horizon.jpg")
+st.write("Especificaciones")
+st.write( "Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1")
+st.write("Procesador: Intel i7-3820 @ 3.6Ghz")
+st.write("Memoria: 8 GB de RAM")
+st.write("NVIDIA GTX 660 2GB / AMD HD7870 2GB")
+st.write("72 GB available space")
+st.button("Descargar aqui")
 
 
 
