@@ -10,7 +10,7 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-[theme] backgroundColor = "#F0F0F0"
+streamlit config set [theme]
 
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
