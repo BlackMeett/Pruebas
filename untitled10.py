@@ -37,7 +37,7 @@ st.write("Procesador: Intel i7-3820 @ 3.6Ghz")
 st.write("Memoria: 8 GB de RAM")
 st.write("NVIDIA GTX 660 2GB / AMD HD7870 2GB")
 st.write("72 GB available space")
-st.button("Descargar aqui")
+
 
 
 
