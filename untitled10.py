@@ -30,7 +30,7 @@ st.button("Descargar aqui")
 
 #Juego_2
 st.title("GTA V")
-st.image("Horizon.jpg")
+st.image("gtav.jpg")
 st.write("Especificaciones")
 st.write( "Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1")
 st.write("Procesador: Intel i7-3820 @ 3.6Ghz")
