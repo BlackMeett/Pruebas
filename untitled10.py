@@ -14,10 +14,12 @@ st.sidebar.title("Barra Lateral")
 st.sidebar.header("Hola esta es una barra lateral")
 st.sidebar.image("OIP.png")
 
+st.sidebar.title("Verificador de edad")
 edad = st.sidebar.text_input("ingresa tu edad")
-st.sidebar.write("Escribiste lo siguiente:", user_input)
-if st.sidebar.button("Haz Click Aqui"):
-   st.sidebar.write("Haz Hecho Click Felicidades")
+ if edad < 18;
+  Print("No puedes acceder")
+
+
 
 
 
