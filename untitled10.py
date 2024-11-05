@@ -10,6 +10,8 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+[theme]
+backgroundColor = "#F0F0F0"
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
 st.sidebar.image("OIP.jpg")
@@ -37,7 +39,7 @@ st.write("Procesador: Intel i7-3820 @ 3.6Ghz")
 st.write("Memoria: 8 GB de RAM")
 st.write("NVIDIA GTX 660 2GB / AMD HD7870 2GB")
 st.write("72 GB available space")
-st.button("Descargar aquiasad")
+st.button("Descargar aca!")
 
 
 
