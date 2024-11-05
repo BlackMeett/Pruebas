@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 st.sidebar.title("Barra Lateral")
 st.sidebar.header("Hola esta es una barra lateral")
 st.sidebar.image("OIP.png")
-st.button("pon tu edad")
+st.sidebar.text_input("Ingresa tu edad")
 
 
 
