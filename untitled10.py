@@ -29,9 +29,9 @@ if opcion == "Iniciar sesión":
     if boton_logeo:
         
         if usuario and contraseña:
-            st.success("¡Inicio de sesión exitoso!")
+            st.sidebar.success("¡Inicio de sesión exitoso!")
         else:
-            st.error("Por favor, ingresa un usuario y una contraseña válidos.")
+            st.sidebar.error("Por favor, ingresa un usuario y una contraseña válidos.")
 
 
 st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
