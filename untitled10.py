@@ -25,7 +25,7 @@ opcion = st.sidebar.radio("Elige una opción", ("Iniciar sesión", "Crear cuenta
 if opcion == "Iniciar sesión":
     usuario = st.sidebar.text_input("usuario")
     contraseña = st.sidebar.text_input("Contraseña", type="password")
-    boton_logeo = st.sidebar.button("Iniciar Sesiòn)
+    boton_logeo = st.sidebar.button("Iniciar Sesiòn")
     if login_button:
         
         if usuarui and contraseña:
