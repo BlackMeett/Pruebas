@@ -25,6 +25,14 @@ opcion = st.sidebar.radio("Elige una opción", ("Iniciar sesión", "Crear cuenta
 if opcion == "Iniciar sesión":
     usuario = st.sidebar.text_input("usuario")
     contraseña = st.sidebar.text_input("Contraseña", type="password")
+    boton_logeo = st.sidebar.button("Iniciar Sesiòn)
+    if boton_logeo:    
+       if usuario and contraseña:
+            st.sidebar.success("Logeo Exitoso")
+        else: 
+            st.error("Por favor, ingresa un usuario y una contraseña válidos.")
+
+
 st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
 st.title("Steam Verde")
 st.write("Galeria De Juegos")
