@@ -21,7 +21,7 @@ body {
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
 st.sidebar.image("OIP.jpg")
-opcion = st.sidebar.radio(("Elige una opción", ("Iniciar sesión", "Crear cuenta"))
+opcion = st.sidebar.radio("Elige una opción", ("Iniciar sesión", "Crear cuenta"))
 st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
 st.title("Steam Verde")
 st.write("Galeria De Juegos")
