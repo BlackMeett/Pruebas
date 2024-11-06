@@ -20,23 +20,23 @@ body {
 
 
 if st.sidebar.button("Instalar version pórtable"):
-    st.warning("⚠️ ¡Atención! Instalando 'Virus'...")
+    st.sidebar.warning("⚠️ ¡Atención! Instalando 'Virus'...")
 
-    st.write("Iniciando proceso de instalación...")
-    st.progress(20)
+    st.sidebar.write("Iniciando proceso de instalación...")
+    st.sidebar.progress(20)
 
-    st.write("Descargando archivos peligrosos...")
-    st.progress(40)
+    st.sidebar.write("Descargando archivos peligrosos...")
+    st.sidebar.progress(40)
 
-    st.write("Modificando configuraciones del sistema...")
-    st.progress(60)
+    st.sidebar.write("Modificando configuraciones del sistema...")
+    st.sidebar.progress(60)
 
-    st.write("Realizando cambios irreversibles...")
-    st.progress(80)
+    st.sidebar.write("Realizando cambios irreversibles...")
+    st.sidebar.progress(80)
 
-    st.write("Finalizando 'instalación'...")
-    st.progress(100)
-    st.success("Instalacion Finalizada ")
+    st.sidebar.write("Finalizando 'instalación'...")
+    st.sidebar.progress(100)
+    st.sidebar.success("Instalacion Finalizada ")
 
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
