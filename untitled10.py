@@ -41,6 +41,8 @@ elif opcion == "Crear cuenta":
         if Contraseña_2 == confirmar_contraseña:
             if Nombre == Contraseña_2:
                 st.sidebar_success(f"Cuenta creada para  {Nombre}")
+            else:
+                st.warning("Por favor, ingresa un nombre de usuario y una contraseña.")
 st.title("Steam Verde")
 st.write("Galeria De Juegos")
 
