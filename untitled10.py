@@ -22,7 +22,7 @@ st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
 st.sidebar.image("OIP.jpg")
 opcion = st.sidebar.radio("Elige una opción", ("Iniciar sesión", "Crear cuenta"))
- if opcion == "Iniciar sesión"
+ if opcion == "Iniciar sesión":
      usuario = st.sidebar.text_input("usuario")
      contraseña = st.sidebar.text_input("Contraseña", type="password")
 st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
