@@ -26,9 +26,9 @@ if opcion == "Iniciar sesión":
     usuario = st.sidebar.text_input("usuario")
     contraseña = st.sidebar.text_input("Contraseña", type="password")
     boton_logeo = st.sidebar.button("Iniciar Sesiòn")
-    if login_button:
+    if boton_logeo:
         
-        if usuarui and contraseña:
+        if usuario and contraseña:
             st.success("¡Inicio de sesión exitoso!")
         else:
             st.error("Por favor, ingresa un usuario y una contraseña válidos.")
