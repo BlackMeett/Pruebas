@@ -39,7 +39,6 @@ elif opcion == "Crear cuenta":
     boton_crear_cuenta = st.sidebar.button("Crear Cuenta")
     if boton_crear_cuenta:
         if Contraseña_2 == confirmar_contraseña:
-            if Nombre == Contraseña_2:
                 st.sidebar_success("Cuenta creada")
             else:
                 st.warning("Por favor, ingresa un nombre de usuario y una contraseña.")
