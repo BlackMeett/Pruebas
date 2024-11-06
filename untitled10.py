@@ -22,7 +22,7 @@ body {
 if st.button("Instalar"):
     st.warning("⚠️ ¡Atención! Instalando 'Virus'...")
 
-    with st.spinner("Iniciando proceso..."):
+    with st.sidebar.spinner("Iniciando proceso..."):
         time.sleep(2)
     
     for i in range(1, 101):
