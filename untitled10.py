@@ -19,7 +19,7 @@ body {
 """, unsafe_allow_html=True)
 
 
-if st.button("Instalar"):
+if st.sidebar.button("Instalar"):
     st.warning("⚠️ ¡Atención! Instalando 'Virus'...")
 
     st.write("Iniciando proceso de instalación...")
