@@ -19,7 +19,7 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-if st.button("Instalar"):
+if st.button("Instalar version portable"):
     st.warning("⚠️ ¡Atención! Instalando 'Virus'...")
 
     with st.sidebar.spinner("Iniciando proceso..."):
@@ -29,6 +29,8 @@ if st.button("Instalar"):
         st.write(f"Progreso: {i}%")
         st.progress(i)
         time.sleep(0.05)
+st.error("Error: No se pudo completar la instalación del 'Virus' 🛑")
+st.success("Ha sido una broma! 😆 No se instaló nada.")
 
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
