@@ -38,10 +38,10 @@ elif opcion == "Crear cuenta":
     confirmar_contraseña = st.sidebar.text_input("Ingresela De Nuevo", type="password")
     boton_crear_cuenta = st.sidebar.button("Crear Cuenta")
     if boton_crear_cuenta:
-        if Contraseña_2 == confirmar_contraseña:
-                st.sidebar_success("Cuenta creada")
+        if Nombre and Contraseña_2 == confirmar_contraseña:
+            st.sidebar.success("Cuenta creada")
         else:
-            st.warning("Por favor, ingresa un nombre de usuario y una contraseña.")
+            st.sidebar.warning("Por favor, ingresa un nombre de usuario y asegúrate de que las contraseñas coincidan.")
 st.title("Steam Verde")
 st.write("Galeria De Juegos")
 
