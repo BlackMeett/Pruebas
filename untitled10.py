@@ -70,6 +70,20 @@ if st.button("Descarga aca!"):
     st.error("¡ALERTA! Esto puede contener virus")
 
 
+#juego_3
+st.title("DRAGON BALL: Sparking! ZERO")
+st.image("sparkin.jpg")
+st.write("Especificaciones")
+st.write( "Requiere un procesador y un sistema operativo de 64 bits")
+st.write("Intel Core i5-9600K / AMD Ryzen 5 2600")
+st.write("Memoria: 8 GB de RAM")
+st.write("Nvidia GeForce GTX 980 / AMD Radeon RX 590 / Intel Arc A750")
+st.write("29 GB available space")
+if st.button("Descarga!"):
+    st.error("¡ALERTA! Esto puede contener virus")
+
+
+
 
 
 
