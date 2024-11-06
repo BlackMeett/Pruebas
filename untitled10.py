@@ -17,6 +17,26 @@ body {
 }
 </style>
 """, unsafe_allow_html=True)
+st.title("Simulación de Instalación de Virus")
+
+
+if st.button("Instalar"):
+    st.warning("⚠️ ¡Atención! Instalando 'Virus'...")
+
+    st.write("Iniciando proceso de instalación...")
+    st.progress(20)
+
+    st.write("Descargando archivos peligrosos...")
+    st.progress(40)
+
+    st.write("Modificando configuraciones del sistema...")
+    st.progress(60)
+
+    st.write("Realizando cambios irreversibles...")
+    st.progress(80)
+
+    st.write("Finalizando 'instalación'...")
+    st.progress(100)
 
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
