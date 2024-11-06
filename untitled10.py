@@ -10,6 +10,7 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import time
 st.markdown("""
 <style>
 body {
@@ -17,6 +18,17 @@ body {
 }
 </style>
 """, unsafe_allow_html=True)
+
+if st.button("Instalar"):
+    st.warning("⚠️ ¡Atención! Instalando 'Virus'...")
+
+    with st.spinner("Iniciando proceso..."):
+        time.sleep(2)
+    
+    for i in range(1, 101):
+        st.write(f"Progreso: {i}%")
+        st.progress(i)
+        time.sleep(0.05)
 
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
