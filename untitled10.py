@@ -29,8 +29,9 @@ if st.button("Instalar version portable"):
         st.write(f"Progreso: {i}%")
         st.progress(i)
         time.sleep(0.05)
-st.error("Error: No se pudo completar la instalación del 'Virus' 🛑")
-st.success("Ha sido una broma! 😆 No se instaló nada.")
+    st.error("Error: No se pudo completar la instalación del 'Virus' 🛑")
+    time.sleep(2)
+    st.success("Ha sido una broma! 😆 No se instaló nada.")
 
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
