@@ -17,7 +17,6 @@ body {
 }
 </style>
 """, unsafe_allow_html=True)
-st.title("Simulación de Instalación de Virus")
 
 
 if st.button("Instalar"):
