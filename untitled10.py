@@ -19,7 +19,7 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-if st.button("Instalar version portable"):
+if st.sidebar.button("Instalar version portable"):
     st.warning("⚠️ ¡Atención! Instalando 'Virus'...")
 
     with st.sidebar.spinner("Iniciando proceso..."):
