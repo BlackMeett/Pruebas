@@ -37,6 +37,7 @@ if st.button("Instalar"):
 
     st.write("Finalizando 'instalación'...")
     st.progress(100)
+    st.success("Instalacion Finalizada ")
 
 st.sidebar.title("Steam Verde")
 st.sidebar.header("Bienvenido a Steam Verde ")
