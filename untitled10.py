@@ -32,7 +32,12 @@ if opcion == "Iniciar sesión":
             st.sidebar.success("¡Inicio de sesión exitoso!")
         else:
             st.sidebar.error("Por favor, ingresa un usuario y una contraseña válidos.")
-
+elif opcion == "Crear cuenta":
+    Nombre = st.sidebar.text_input("Ingrese Su Nombre")
+    Contraseña_2 = st.sidebar.text_input("Ingrese Su contraseña", type="password")
+    confirmar_contraseña = st.sidebar.text_input("Ingresela De Nuevo", type="password")
+    
+    
 
 st.sidebar.text_input("Ingresa El Nombre del Juego que buscas ")
 st.title("Steam Verde")
